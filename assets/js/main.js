@@ -4,6 +4,21 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+//Carrossel página home
+const imgsCarrossel = document.getElementById("imgc");
+const imgCarrossel = document.querySelectorAll("#imgc img");
+
+let idx = 0;
+
+function carrossel(){
+	idx++;
+	if(idx > imgCarrossel.length -1) {
+		idx = 0;
+	}
+		imgsCarrossel.style.transform = `translateX(${-idx * 500}px)`;
+
+}
+setInterval(carrossel, 1800);
 (function($) {
 
 	var	$window = $(window),

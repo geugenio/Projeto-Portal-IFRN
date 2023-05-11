@@ -2847,4 +2847,22 @@ body.is-menu-visible #menu {
   #menu > * {
     padding: 1.5em;
   }
+}
+
+.carrossel {
+  box-shadow: 2px 2px 4px black;
+  overflow: hidden;
+  height: 500px;
+  width: 500px;
+}
+.carrossel .container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(0);
+}
+.carrossel img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 500px;
+  width: 500px;
 }/*# sourceMappingURL=main.css.map */

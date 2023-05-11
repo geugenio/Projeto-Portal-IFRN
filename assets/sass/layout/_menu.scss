@@ -7,7 +7,7 @@
 /* Menu */
 
 	#menu {
-		@include vendor('transform', 'translateX(#{_size(menu)})');
+		@include vendor('transform', 'translateY(-#{_size(menu)})');
 		@include vendor('transition', (
 			'transform #{_duration(menu)} ease',
 			'visibility #{_duration(menu)}'
@@ -17,7 +17,7 @@
 		border-left: solid 1px _palette(border);
 		box-shadow: none;
 		height: 100%;
-		max-width: 80%;
+		max-width: 100%;
 		overflow-y: auto;
 		position: fixed;
 		right: 0;

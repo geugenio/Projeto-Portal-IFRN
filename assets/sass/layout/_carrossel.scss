@@ -1,17 +1,26 @@
 .carrossel{
-    box-shadow: 2px 2px 4px black;
-    overflow:hidden;
-    height: 500px;
-    width: 500px;
-
-    .container{
-        display: flex;
-        transition: transform 0.5s ease-in-out  ;
-        transform: translateX(0);
+    height: 100vh;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    .swiper{
+        img {
+            box-shadow: 0 1px 2px #0003;
+            width: 100%;
+        }
+        .swiper-slide{
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
     }
-    img{
-        object-fit: cover;
-        height: 500px;
-        width: 500px;
+    .swiper-button-next, .swiper-button-prev {
+        background-color: rgba(0, 0, 0, 0.212);
+        padding: 40px;
+        border-radius: 50%;
     }
 }

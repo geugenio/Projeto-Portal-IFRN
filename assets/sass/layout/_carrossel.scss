@@ -1,7 +1,6 @@
 .carrossel{
-    height: 100vh;
+    height: 80vh;
     width: 100%;
-    max-width: 1000px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -19,8 +18,8 @@
         }
     }
     .swiper-button-next, .swiper-button-prev {
-        background-color: rgba(0, 0, 0, 0.212);
-        padding: 40px;
+        background-color: rgba(17, 37, 27, 0.158);
+        padding: 30px;
         border-radius: 50%;
     }
 }

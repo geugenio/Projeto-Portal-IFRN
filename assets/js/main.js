@@ -44,7 +44,7 @@ var swiper = new Swiper(".swiper", {
 				hideOnSwipe: true,
 				resetScroll: true,
 				resetForms: true,
-				side: 'right',
+				side: 'top',
 				target: $body,
 				visibleClass: 'is-menu-visible'
 			});

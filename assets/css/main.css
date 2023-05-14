@@ -2667,6 +2667,20 @@ body.single #wrapper {
   width: 100%;
 }
 
+.descricao {
+  margin: 3vh;
+}
+.descricao h2 {
+  font-size: 2.5vh;
+  text-align: center;
+}
+.descricao h3 {
+  font-size: 2vh;
+}
+.descricao p {
+  text-align: justify;
+}
+
 /* Intro */
 #intro .logo {
   border-bottom: 0;

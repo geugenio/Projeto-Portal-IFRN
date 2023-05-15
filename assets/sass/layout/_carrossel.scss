@@ -9,6 +9,12 @@
         img {
             box-shadow: 0 1px 2px #0003;
             width: 50%;
+            transition:0.1s ease-in;
+        }
+
+        img:hover{
+            transition:0.2s ease-in;
+            width: 52%;
         }
         .swiper-slide{
             text-align: center;

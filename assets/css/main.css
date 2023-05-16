@@ -1,4 +1,4 @@
-@import 'fontawesome-all.min.css';
+@import "fontawesome-all.min.css";
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900");
 /*
 	Future Imperfect by HTML5 UP
@@ -2865,4 +2865,11 @@ body.is-menu-visible #menu {
 }
 .carrossel .swiper-pagination {
   position: relative;
+}
+
+.turmas img {
+  width: 70%;
+}
+.turmas article {
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */

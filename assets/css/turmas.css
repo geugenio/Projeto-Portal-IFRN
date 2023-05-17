@@ -1,0 +1,13 @@
+.teste {
+  width: 25%;
+}
+@media screen and (min-width: 320px) {
+  .teste img {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .teste img {
+    width: 30%;
+  }
+}/*# sourceMappingURL=turmas.css.map */

@@ -1,14 +1,14 @@
-@import 'fontawesome-all.min.css';
+@import "fontawesome-all.min.css";
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900");
 /*
 	Future Imperfect by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+html, body, span, applet, object,
+iframe, h1, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
-code, del, dfn, em, ins, kbd, q, s, samp,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
 u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
@@ -22,51 +22,11 @@ section, summary, time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-
 }
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
-}
-
-/* img {
-  width: 760px;
-  justify-content: center;
-} */
-
-@media (max-width:1590px) {
- 
-  img{
-    width: 620px;
-    justify-content: center;
-  }
-}
-@media (max-width:600px) {
-  img{
-    width: 500px;
-    justify-content: center;
-  }
-  
-}
-
-@media (max-width:500px ) {
-  img{
-    width: 270px;
-    padding: 7px;
-    justify-content: center;
-  }
- 
-  
-}
-@media (max-width:335px) {
-  img{
-    width: 200px;
-    padding: 7px;
-    justify-content: center;
-  }
- 
-  
 }
 
 body {
@@ -2906,4 +2866,14 @@ body.is-menu-visible #menu {
 }
 .carrossel .swiper-pagination {
   position: relative;
+}
+
+img {
+  width: 80%;
+}
+
+.tituloTurmas {
+  text-align: center;
+  font-size: 15px;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */

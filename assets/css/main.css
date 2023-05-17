@@ -2836,7 +2836,7 @@ body.is-menu-visible #menu {
 }
 
 .carrossel {
-  height: 80vh;
+  height: 50vh;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -2844,7 +2844,7 @@ body.is-menu-visible #menu {
   justify-content: center;
 }
 .carrossel .swiper img {
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   width: 50%;
   transition: 0.1s ease-in;
 }
@@ -2862,4 +2862,7 @@ body.is-menu-visible #menu {
   background-color: rgba(17, 37, 27, 0.158);
   padding: 30px;
   border-radius: 50%;
+}
+.carrossel .swiper-pagination {
+  position: relative;
 }/*# sourceMappingURL=main.css.map */

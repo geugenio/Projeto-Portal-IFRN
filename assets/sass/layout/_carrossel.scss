@@ -1,6 +1,4 @@
 .carrossel{
-    height: 50vh;
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -8,7 +6,7 @@
     .swiper{
         img {
             box-shadow: 0 2px 5px #0003;
-            width: 50%;
+            width: 60%;
             transition:0.1s ease-in;
         }
 

@@ -2836,8 +2836,6 @@ body.is-menu-visible #menu {
 }
 
 .carrossel {
-  height: 50vh;
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
@@ -2845,7 +2843,7 @@ body.is-menu-visible #menu {
 }
 .carrossel .swiper img {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  width: 50%;
+  width: 60%;
   transition: 0.1s ease-in;
 }
 .carrossel .swiper img:hover {

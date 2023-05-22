@@ -2842,8 +2842,6 @@ body.is-menu-visible #menu {
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
-  max-height: -moz-max-content;
-  max-height: max-content;
 }
 .carrossel .swiper img {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);

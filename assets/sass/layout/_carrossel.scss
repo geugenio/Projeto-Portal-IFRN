@@ -1,34 +1,35 @@
-.carrossel{
-    height: 50vh;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    .swiper{
-        img {
-            box-shadow: 0 2px 5px #0003;
-            width: 50%;
-            transition:0.1s ease-in;
-        }
+.carrossel {
+  height: 50vh;
+  width: 100%;
+  display: inline-block;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  .swiper {
+    img {
+      box-shadow: 0 2px 5px #0003;
+      width: 50%;
+      transition: 0.1s ease-in;
+    }
 
-        img:hover{
-            transition:0.2s ease-in;
-            width: 52%;
-        }
-        .swiper-slide{
-            text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
+    img:hover {
+      transition: 0.2s ease-in;
+      width: 52%;
     }
-    .swiper-button-next, .swiper-button-prev {
-        background-color: rgba(17, 37, 27, 0.158);
-        padding: 30px;
-        border-radius: 50%;
+    .swiper-slide {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
-    .swiper-pagination{
-        position: relative;
-    }
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    background-color: rgba(17, 37, 27, 0.158);
+    padding: 30px;
+    border-radius: 50%;
+  }
+  .swiper-pagination {
+    position: relative;
+  }
 }

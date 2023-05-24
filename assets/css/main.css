@@ -1,12 +1,12 @@
-@import 'fontawesome-all.min.css';
+@import "fontawesome-all.min.css";
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900");
 /*
 	Future Imperfect by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+html, body, span, applet, object,
+iframe, h1, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
@@ -1842,6 +1842,10 @@ input[type=radio] + label:before {
   display: inline-block;
   position: relative;
 }
+.container { 
+  display: flex;
+  align-items: center;
+}
 .image img {
   display: block;
 }
@@ -2907,4 +2911,14 @@ body.is-menu-visible #menu {
 }
 .carrossel .swiper-pagination {
   position: relative;
+}
+
+img {
+  width: 80%;
+}
+
+.tituloTurmas {
+  text-align: center;
+  font-size: 15px;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */

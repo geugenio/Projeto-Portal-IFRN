@@ -1824,6 +1824,10 @@ input[type=radio] + label:before {
   display: inline-block;
   position: relative;
 }
+.container { 
+  display: flex;
+  align-items: center;
+}
 .image img {
   display: block;
 }

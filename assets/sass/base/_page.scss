@@ -35,7 +35,6 @@
 
 	body {
 		background: _palette(bg-alt);
-
 		// Stops initial animations until page loads.
 			&.is-preload {
 				*, *:before, *:after {
@@ -43,5 +42,22 @@
 					@include vendor('transition', 'none !important');
 				}
 			}
-
+	}
+	.dark-mode{
+		background-color: #0e1d27;
+		.post{
+			background-color: #203549;
+			p{
+				color:rgb(210, 230, 201);
+			}
+			h2, h3 {
+				color:rgb(253, 255, 252);
+			}
+		}
+		#header{
+			background-color: #203549;
+			h1{
+				color:rgb(253, 255, 252);
+			}
+		}
 	}

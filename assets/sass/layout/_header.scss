@@ -127,6 +127,34 @@
 					}
 				}
 			}
+
+			.toggle{
+				height: 16px;
+				width: 30px;
+				background-color: rgb(255, 255, 255);
+				position: absolute;
+				top: 40%;
+				border-radius: 100px;
+				box-shadow: 0 1px 2px rgba(0, 0, 0, 0.356);
+				transform: translateX(-150%);
+			}
+			.toggle::before{
+				content: '';
+				position: absolute;
+				height: 11px;
+				width: 11px;
+				background-color: rgb(70, 75, 151);
+				box-shadow: 0 1px 2px rgba(0, 0, 0, 0.356);
+				top: 7.5px;
+				left: 3px;
+				transform: translateY(-50%);
+				border-radius: 50%;
+				transition: all 0.1s ease-in-out;
+			}
+			.toggle.active::before{
+				background-color: #0e1d27;
+				left: calc(54%);
+			}
 		}
 
 		form {

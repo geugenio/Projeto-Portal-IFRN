@@ -10,7 +10,22 @@ var swiper = new Swiper(".swiper", {
 	},
 	keyboard: true,
   });
-  
+  const body = document.querySelector("body"), 
+  article = document.querySelector("article"),
+  header = document.querySelector("header"),
+  toggle = document.querySelector(".toggle");
+
+  toggle.addEventListener("click", () => {
+	body.classList.toggle("dark-mode");
+	article.classList.toggle("dark-mode");
+	header.classList.toggle("dark-mode");
+
+	if(!body.classList.contains("dark-mode")) {
+		return localStorage.setItem("mode", "light");
+	}
+	localStorage.setItem("mode", "dark");
+  });
+  toggle.addEventListener("click", ()=> toggle.classList.toggle("active"));
 (function($) {
 
 	var	$window = $(window),

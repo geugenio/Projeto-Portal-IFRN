@@ -1823,9 +1823,12 @@ input[type=radio] + label:before {
   display: inline-block;
   position: relative;
 }
-.container { 
-  display: flex;
-  align-items: center;
+.leo {
+margin: 14px;
+height: 150px;
+}
+.paragrafoleo{
+  text-align: justify;
 }
 .image img {
   display: block;

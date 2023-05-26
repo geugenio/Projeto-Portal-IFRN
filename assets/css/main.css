@@ -1842,13 +1842,6 @@ input[type=radio] + label:before {
   display: inline-block;
   position: relative;
 }
-.leo {
-margin: 14px;
-height: 150px;
-}
-.paragrafoleo{
-  text-align: justify;
-}
 .image img {
   display: block;
 }
@@ -2883,8 +2876,8 @@ body.is-menu-visible #menu {
 }
 
 .carrossel {
-  height: 50vh;
-  width: 100%;
+  height: 80%;
+  width: 90vw;
   display: inline-block;
   flex-wrap: wrap;
   align-content: center;
@@ -2894,7 +2887,6 @@ body.is-menu-visible #menu {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   width: 50%;
   transition: 0.1s ease-in;
-  max-width: 1280px;
 }
 .carrossel .swiper img:hover {
   transition: 0.2s ease-in;

@@ -2876,14 +2876,13 @@ body.is-menu-visible #menu {
 }
 
 .carrossel {
-  height: 80%;
-  width: 90vw;
-  display: inline-block;
-  flex-wrap: wrap;
+  height: 70vh;
+  display: flex;
   align-content: center;
   justify-content: center;
 }
 .carrossel .swiper img {
+  height: 100%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   width: 50%;
   transition: 0.1s ease-in;

@@ -1,188 +1,309 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Future Imperfect by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html lang = "pt-br">
-	<head>
-		<title>Portal Informática</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="icon" href="https://ead.ifrn.edu.br/portal/wp-content/uploads/2023/01/ifrn-logo.png">
-		<link
-		rel="stylesheet"
-		href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
-	  />
-	</head>
-	<body class="is-preload">
+<html lang="pt-br">
+  <head>
+    <title>Portal Informática</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link
+      rel="icon"
+      href="https://ead.ifrn.edu.br/portal/wp-content/uploads/2023/01/ifrn-logo.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <h1><a href="index.html">PORTAL DE INFORMÁTICA</a></h1>
+        <nav class="links">
+          <ul>
+            <li><a href="#">Eventos</a></li>
+            <li><a href="/turmas.html">Turmas</a></li>
+            <li><a href="#">Coordenação</a></li>
+          </ul>
+        </nav>
+        <nav class="main">
+          <div class="toggle"></div>
+          <ul>
+            <li class="search">
+              <a class="fa-search" href="#search">Pesquisar</a>
+              <form id="search" method="get" action="#">
+                <input type="text" name="query" placeholder="Search" />
+              </form>
+            </li>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+            <li class="menu">
+              <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
-				<!-- Header -->
-					<header id="header">
-						<h1><a href="index.html">PORTAL DE INFORMÁTICA</a></h1>
-						<nav class="links">
-							<ul>
-								<li><a href="#">Eventos</a></li>
-								<li><a href="/turmas.html">Turmas</a></li>
-								<li><a href="#">Coordenação</a></li>
-							</ul>
-						</nav>
-						<nav class="main">
-							<div class="toggle">
-									
-							</div>
-							<ul>
-								<li class="search">
-									<a class="fa-search" href="#search">Pesquisar</a>
-									<form id="search" method="get" action="#">
-										<input type="text" name="query" placeholder="Search" />
-									</form>
-								</li>
+      <!-- Menu -->
+      <section id="menu">
+        <!-- Search -->
+        <section>
+          <form class="search" method="get" action="#">
+            <input type="text" name="query" placeholder="Search" />
+          </form>
+        </section>
 
-								<li class="menu">
-									<a class="fa-bars" href="#menu">Menu</a>		
-								</li>
-							</ul>
-						</nav>
-					</header>
+        <!-- Links -->
+        <section>
+          <ul class="links">
+            <li>
+              <a href="#">
+                <h3>Eventos</h3>
+              </a>
+            </li>
+            <li>
+              <a href="/turmas.html">
+                <h3>Turmas</h3>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <h3>Coordenação</h3>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </section>
 
-				<!-- Menu -->
-					<section id="menu">
+     
 
-						<!-- Search -->
-							<section>
-								<form class="search" method="get" action="#">
-									<input type="text" name="query" placeholder="Search" />
-								</form>
-							</section>
-
-						<!-- Links -->
-							<section>
-								<ul class="links">
-									<li>
-										<a href="#">
-											<h3>Eventos</h3>
-										</a>
-									</li>
-									<li>
-										<a href="/turmas.html">
-											<h3>Turmas</h3>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<h3>Coordenação</h3>
-										</a>
-									</li>
-
-								</ul>
-							</section>
-
-					</section>
-
-					<div class="carrossel">
-						<div class="swiper">	
-							<div class="swiper-wrapper">
-								<div class="swiper-slide">
-									<div class="project-img">
-										<a href="eventos.html">
-											<picture>
-												<source media="(max-width:768px)" srcset="/images/carrossel/medio/EVENTOS.png">
-												<source media="(min-width:1024px)" srcset="/images/carrossel/grande/EVENTOS.png">
-												<img src="/images/carrossel/pequeno/EVENTOS.png" alt="Foto que leva para a página de eventos">
-											</picture>
-										</a>
-									</div>
-								</div>
-								<div class="swiper-slide">
-									<div class="project-img">
-										<a href="turmas.html">
-											<picture>
-												<source media="(max-width:768px)" srcset="/images/carrossel/medio/TURMAS.png">
-												<source media="(min-width:1024px)" srcset="/images/carrossel/grande/TURMAS.png">
-												<img src="/images/carrossel/pequeno/TURMAS.png" alt="Foto que leva para a página de turmas">
-											</picture>
-										</a>
-									</div>
-								</div>
-								<div class="swiper-slide">
-									<div class="project-img">
-										<a href="">
-											<picture>
-												<source media="(max-width:768px)" srcset="/images/carrossel/medio/PROJETOS.png">
-												<source media="(min-width:1024px)" srcset="/images/carrossel/grande/PROJETOS.png">
-												<img src="/images/carrossel/pequeno/PROJETOS.png" alt="Foto que leva para a página de turmas">
-											</picture>
-										</a>
-									</div>
-								</div>
-								<div class="swiper-slide">
-									<div class="project-img">
-										<a href="coordenacao.html">
-											<picture>
-												<source media="(max-width:768px)" srcset="/images/carrossel/medio/COORDENAÇÃO.png">
-												<source media="(min-width:1024px)" srcset="/images/carrossel/grande/COORDENAÇÃO.png">
-												<img src="/images/carrossel/pequeno/COORDENAÇÃO.png" alt="Foto que leva para a página de turmas">
-											</picture>
-										</a>
-									</div>
-								</div>
-							</div>
-							<div class="swiper-button-next"></div>
-							<div class="swiper-button-prev"></div>
-							<div class="swiper-pagination"></div>
-						</div>
-					</div>
-					
-					<!-- Footer -->
-					<div id="main">
-					<section class= "descricao">
-						<article class="post">
-							<h2>Sobre</h2>
-							<p>O Curso Técnico Integrado em Informática forma profissionais que desenvolvem programas de computador, seguindo as especificações e paradigmas da lógica de programação e das linguagens de programação; utilizam ambientes de desenvolvimentos de sistemas, sistemas operacionais e banco de dados; realizam testes de software, mantendo registro que possibilitem análises e refinamento dos resultados; executam manutenção de programas de computadores implantados. Possibilidades de atuação: Instituições públicas, privadas e do terceiro setor que demandem sistemas computacionais, especialmente envolvendo programação de computadores.</p>
-							<h2>Mundo de trabalho</h2>
-							<h3>Aprendizagem</h3>
-							<p>A aprendizagem é estabelecida pela Lei nº.10.097/2000, regulamentada pelo Decreto nº. 9.579/2018, determinando que todas as empresas de pequeno, médio e grande porte estão obrigadas a contratar percentual de aprendizes, na faixa etária dos 14 aos 24 anos.</p>
-							<h3>Estágio</h3>
-							<p>Estágio é ato educativo escolar supervisionado, desenvolvido no ambiente de trabalho, que visa à preparação para o trabalho produtivo de educandos que estejam frequentando o ensino regular, conforme a Lei 11.788/08.</p>
-							<p>Período mínimo: 2° ano</p>
-							<h3>Perfil do Egresso</h3>
-		
-							<p>O profissional formado neste curso deverá demonstrar habilidades em atividades como:
-		
-								Desenvolver programas de computador, seguindo as especificações e paradigmas da lógica de programação e das linguagens de programação; Realizar testes de programas de computador, mantendo registros que possibilitem análises e refinamento dos resultados; Executar manutenção de programas de computador implantados; Compreender o funcionamento e relacionamento entre os componentes de computadores e seus periféricos; Instalar e configurar computadores, isolados ou em redes, periféricos e softwares; Utilizar os serviços e funções de sistemas operacionais; Utilizar softwares aplicativos e utilitários; Selecionar programas de aplicação a partir da avaliação das necessidades do usuário; Identificar meios físicos, dispositivos e padrões de comunicação, analisando as suas aplicações em redes; Descrever componentes e sua função no processo de funcionamento de uma rede de computadores; Compreender as arquiteturas de redes; Instalar os dispositivos de rede, os meios físicos e software de controle desses dispositivos, analisando seu funcionamento para aplicações em redes; Instalar e configurar sistemas operacionais de redes de computadores; Instalar e configurar protocolos e softwares de redes; Desenvolver serviços de administração de redes locais; Conhecer e desenvolver processos básicos de documentação de projetos de estruturas físicas de redes locais; Interpretar documentação de projetos físicos de redes locais; Aplicar conceitos de algoritmo e orientação a objetos; Aplicar técnicas de análise e projeto de sistemas orientados a objetos; Compreender o funcionamento das estruturas de dados básicas; Aplicar boas técnicas de programação; Conhecer o processo de desenvolvimento de software; Entender os conceitos de projeto e utilização de banco de dados; Aplicar técnicas básicas de manutenção de microcomputadores; Aplicar normas técnicas na instalação de microcomputadores; Promover e difundir práticas técnicas de correta utilização de microcomputadores; Conhecer e avaliar modelos de organização de empresas; Organizar a coleta e documentação de informações sobre o desenvolvimento de projetos de softwares; Avaliar a necessidade de treinamento e de suporte técnico aos usuários; Executar ações de treinamento e de suporte técnico.</p>
-						</article>
-						
-					</section>
+      <!-- Footer -->
+      <div id="main">
+		<div class="carrossel">
+			<div class="swiper">
+			  <div class="swiper-wrapper">
+				<div class="swiper-slide">
+				  <div class="project-img">
+					<a href="eventos.html">
+					  <picture>
+						<source
+						  media="(max-width:768px)"
+						  srcset="/images/carrossel/medio/EVENTOS.png"
+						/>
+						<source
+						  media="(min-width:1024px)"
+						  srcset="/images/carrossel/grande/EVENTOS.png"
+						/>
+						<img
+						  src="/images/carrossel/pequeno/EVENTOS.png"
+						  alt="Foto que leva para a página de eventos"
+						/>
+					  </picture>
+					</a>
+				  </div>
 				</div>
+				<div class="swiper-slide">
+				  <div class="project-img">
+					<a href="turmas.html">
+					  <picture>
+						<source
+						  media="(max-width:768px)"
+						  srcset="/images/carrossel/medio/TURMAS.png"
+						/>
+						<source
+						  media="(min-width:1024px)"
+						  srcset="/images/carrossel/grande/TURMAS.png"
+						/>
+						<img
+						  src="/images/carrossel/pequeno/TURMAS.png"
+						  alt="Foto que leva para a página de turmas"
+						/>
+					  </picture>
+					</a>
+				  </div>
+				</div>
+				<div class="swiper-slide">
+				  <div class="project-img">
+					<a href="">
+					  <picture>
+						<source
+						  media="(max-width:768px)"
+						  srcset="/images/carrossel/medio/PROJETOS.png"
+						/>
+						<source
+						  media="(min-width:1024px)"
+						  srcset="/images/carrossel/grande/PROJETOS.png"
+						/>
+						<img
+						  src="/images/carrossel/pequeno/PROJETOS.png"
+						  alt="Foto que leva para a página de turmas"
+						/>
+					  </picture>
+					</a>
+				  </div>
+				</div>
+				<div class="swiper-slide">
+				  <div class="project-img">
+					<a href="coordenacao.html">
+					  <picture>
+						<source
+						  media="(max-width:768px)"
+						  srcset="/images/carrossel/medio/COORDENAÇÃO.png"
+						/>
+						<source
+						  media="(min-width:1024px)"
+						  srcset="/images/carrossel/grande/COORDENAÇÃO.png"
+						/>
+						<img
+						  src="/images/carrossel/pequeno/COORDENAÇÃO.png"
+						  alt="Foto que leva para a página de turmas"
+						/>
+					  </picture>
+					</a>
+				  </div>
+				</div>
+			  </div>
+			  <div class="swiper-button-next"></div>
+			  <div class="swiper-button-prev"></div>
+			  <div class="swiper-pagination"></div>
 			</div>
-			<footer>
-				<section class="blurb">
-					<h2>Sobre Nós</h2>
-					<p>Nós do Grupo White Belly Leo disponibilizamos com muito carinho o nosso projeto, um portal exclusivo para o curso de informática, contando toda a trajetória do nosso curso até agora.</p>
-				</section>
-				<section id="footer">
-					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon solid fa-rss"><span class="label">RSS</span></a></li>
-						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-					<p class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>. Images: <a href="http://unsplash.com">Unsplash</a>.</p>
-				</section>
-			</footer>
-		<!-- Scripts -->
-			<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		  </div>
+        <section class="descricao">
+          <article class="post">
+            <h2>Sobre</h2>
+            <p>
+              O Curso Técnico Integrado em Informática forma profissionais que
+              desenvolvem programas de computador, seguindo as especificações e
+              paradigmas da lógica de programação e das linguagens de
+              programação; utilizam ambientes de desenvolvimentos de sistemas,
+              sistemas operacionais e banco de dados; realizam testes de
+              software, mantendo registro que possibilitem análises e
+              refinamento dos resultados; executam manutenção de programas de
+              computadores implantados. Possibilidades de atuação: Instituições
+              públicas, privadas e do terceiro setor que demandem sistemas
+              computacionais, especialmente envolvendo programação de
+              computadores.
+            </p>
+            <h2>Mundo de trabalho</h2>
+            <h3>Aprendizagem</h3>
+            <p>
+              A aprendizagem é estabelecida pela Lei nº.10.097/2000,
+              regulamentada pelo Decreto nº. 9.579/2018, determinando que todas
+              as empresas de pequeno, médio e grande porte estão obrigadas a
+              contratar percentual de aprendizes, na faixa etária dos 14 aos 24
+              anos.
+            </p>
+            <h3>Estágio</h3>
+            <p>
+              Estágio é ato educativo escolar supervisionado, desenvolvido no
+              ambiente de trabalho, que visa à preparação para o trabalho
+              produtivo de educandos que estejam frequentando o ensino regular,
+              conforme a Lei 11.788/08.
+            </p>
+            <p>Período mínimo: 2° ano</p>
+            <h3>Perfil do Egresso</h3>
 
-	</body>
+            <p>
+              O profissional formado neste curso deverá demonstrar habilidades
+              em atividades como: Desenvolver programas de computador, seguindo
+              as especificações e paradigmas da lógica de programação e das
+              linguagens de programação; Realizar testes de programas de
+              computador, mantendo registros que possibilitem análises e
+              refinamento dos resultados; Executar manutenção de programas de
+              computador implantados; Compreender o funcionamento e
+              relacionamento entre os componentes de computadores e seus
+              periféricos; Instalar e configurar computadores, isolados ou em
+              redes, periféricos e softwares; Utilizar os serviços e funções de
+              sistemas operacionais; Utilizar softwares aplicativos e
+              utilitários; Selecionar programas de aplicação a partir da
+              avaliação das necessidades do usuário; Identificar meios físicos,
+              dispositivos e padrões de comunicação, analisando as suas
+              aplicações em redes; Descrever componentes e sua função no
+              processo de funcionamento de uma rede de computadores; Compreender
+              as arquiteturas de redes; Instalar os dispositivos de rede, os
+              meios físicos e software de controle desses dispositivos,
+              analisando seu funcionamento para aplicações em redes; Instalar e
+              configurar sistemas operacionais de redes de computadores;
+              Instalar e configurar protocolos e softwares de redes; Desenvolver
+              serviços de administração de redes locais; Conhecer e desenvolver
+              processos básicos de documentação de projetos de estruturas
+              físicas de redes locais; Interpretar documentação de projetos
+              físicos de redes locais; Aplicar conceitos de algoritmo e
+              orientação a objetos; Aplicar técnicas de análise e projeto de
+              sistemas orientados a objetos; Compreender o funcionamento das
+              estruturas de dados básicas; Aplicar boas técnicas de programação;
+              Conhecer o processo de desenvolvimento de software; Entender os
+              conceitos de projeto e utilização de banco de dados; Aplicar
+              técnicas básicas de manutenção de microcomputadores; Aplicar
+              normas técnicas na instalação de microcomputadores; Promover e
+              difundir práticas técnicas de correta utilização de
+              microcomputadores; Conhecer e avaliar modelos de organização de
+              empresas; Organizar a coleta e documentação de informações sobre o
+              desenvolvimento de projetos de softwares; Avaliar a necessidade de
+              treinamento e de suporte técnico aos usuários; Executar ações de
+              treinamento e de suporte técnico.
+            </p>
+          </article>
+        </section>
+      </div>
+    </div>
+    <footer>
+      <section class="blurb">
+        <h2>Sobre Nós</h2>
+        <p>
+          Nós do Grupo White Belly Leo disponibilizamos com muito carinho o
+          nosso projeto, um portal exclusivo para o curso de informática,
+          contando toda a trajetória do nosso curso até agora.
+        </p>
+      </section>
+      <section id="footer">
+        <ul class="icons">
+          <li>
+            <a href="#" class="icon brands fa-twitter"
+              ><span class="label">Twitter</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon brands fa-facebook-f"
+              ><span class="label">Facebook</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon brands fa-instagram"
+              ><span class="label">Instagram</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon solid fa-rss"
+              ><span class="label">RSS</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon solid fa-envelope"
+              ><span class="label">Email</span></a
+            >
+          </li>
+        </ul>
+        <p class="copyright">
+          &copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.
+          Images: <a href="http://unsplash.com">Unsplash</a>.
+        </p>
+      </section>
+    </footer>
+    <!-- Scripts -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

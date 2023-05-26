@@ -13,13 +13,14 @@ var swiper = new Swiper(".swiper", {
   const body = document.querySelector("body"), 
   article = document.querySelector("article"),
   header = document.querySelector("header"),
-  toggle = document.querySelector(".toggle");
+  toggle = document.querySelector(".toggle"),
+  a = document.querySelector("a");
 
   toggle.addEventListener("click", () => {
 	body.classList.toggle("dark-mode");
 	article.classList.toggle("dark-mode");
 	header.classList.toggle("dark-mode");
-
+	a.classList.toggle("dark-mode");
 	if(!body.classList.contains("dark-mode")) {
 		return localStorage.setItem("mode", "light");
 	}

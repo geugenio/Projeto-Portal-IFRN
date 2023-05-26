@@ -22,7 +22,9 @@
 		top: 0;
 		width: 100%;
 		z-index: _misc(z-index-base);
-
+		#if-logo{
+			width:100%;
+		}
 		a {
 			color: inherit;
 			text-decoration: none;

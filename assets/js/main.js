@@ -15,7 +15,6 @@ var swiper = new Swiper(".swiper", {
   header = document.querySelector("header"),
   toggle = document.querySelector(".toggle"),
   a = document.querySelector("a");
-
   toggle.addEventListener("click", () => {
 	body.classList.toggle("dark-mode");
 	article.classList.toggle("dark-mode");

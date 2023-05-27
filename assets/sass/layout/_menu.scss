@@ -14,7 +14,7 @@
 		));
 		-webkit-overflow-scrolling: touch;
 		background: _palette(bg);
-		border-left: solid 1px _palette(border);
+		
 		box-shadow: none;
 		height: 60%;
 		max-width: 100%;
@@ -27,7 +27,7 @@
 		z-index: _misc(z-index-base) + 2;
 
 		> * {
-			border-top: solid 1px _palette(border);
+		
 			padding: _size(section-spacing);
 
 			> :last-child {
@@ -45,7 +45,6 @@
 
 			> li {
 				border: 0;
-				border-top: dotted 1px _palette(border);
 				margin: 1.5em 0 0 0;
 				padding: 1.5em 0 0 0;
 

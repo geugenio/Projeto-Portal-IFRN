@@ -54,9 +54,14 @@
 				color:rgb(253, 255, 252);
 			}
 		}
-		#header{
+		#header, #menu{
 			background-color: #203549;
-			h1{
+			h1, a{
+				color:rgb(253, 255, 252);
+			}
+		}
+		#menu{
+			h3{
 				color:rgb(253, 255, 252);
 			}
 		}

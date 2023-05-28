@@ -1,25 +1,18 @@
-var swiper = new Swiper(".swiper", {
-	cssMode: true,
-	loop: true,
-	navigation: {
-	  nextEl: ".swiper-button-next",
-	  prevEl: ".swiper-button-prev",
-	},
-	pagination: {
-	  el: ".swiper-pagination",
-	},
-	keyboard: true,
-  });
-  const body = document.querySelector("body"), 
+  let body = document.querySelector("body"), 
   article = document.querySelector("article"),
   header = document.querySelector("header"),
   toggle = document.querySelector(".toggle"),
-  a = document.querySelector("a");
+  logolight = document.querySelector(".dark-logo"),
+  logodark = document.querySelector(".light-logo"),
+  navLinksA = document.querySelector(".links").children;
+
   toggle.addEventListener("click", () => {
+	logolight.classList.toggle("desativado");
+	logodark.classList.toggle("desativado");
 	body.classList.toggle("dark-mode");
 	article.classList.toggle("dark-mode");
 	header.classList.toggle("dark-mode");
-	a.classList.toggle("dark-mode");
+	navLinksA.classList.toggle("dark-mode");
 	if(!body.classList.contains("dark-mode")) {
 		return localStorage.setItem("mode", "light");
 	}
@@ -28,10 +21,11 @@ var swiper = new Swiper(".swiper", {
   toggle.addEventListener("click", ()=> toggle.classList.toggle("active"));
 (function($) {
 
+	
+
 	var	$window = $(window),
 		$body = $('body'),
 		$menu = $('#menu'),
-		$sidebar = $('#sidebar'),
 		$main = $('#main');
 
 	// Breakpoints.

@@ -28,9 +28,12 @@
 				padding-left: 10px;
 				width: 160px;
 			}
+			.dark-logo.desativado, .light-logo.desativado{
+				display: none;
+				position:absolute;
+			}
 		}
 		a {
-			color: inherit;
 			text-decoration: none;
 		}
 

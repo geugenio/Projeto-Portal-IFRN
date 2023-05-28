@@ -2498,8 +2498,11 @@ body {
   padding-left: 10px;
   width: 160px;
 }
+#header #logo-if .dark-logo.desativado, #header #logo-if .light-logo.desativado {
+  display: none;
+  position: absolute;
+}
 #header a {
-  color: inherit;
   text-decoration: none;
 }
 #header ul {
@@ -2919,4 +2922,18 @@ body.is-menu-visible #menu {
   text-align: center;
   font-size: 15px;
   text-align: center;
+}
+
+.coordenacao img {
+  margin-right: 15px;
+  border-radius: 4px;
+}
+.coordenacao p {
+  text-align: justify;
+}
+.coordenacao .lattes a {
+  color: #459b1d;
+}
+.coordenacao h3 {
+  text-transform: uppercase;
 }/*# sourceMappingURL=main.css.map */

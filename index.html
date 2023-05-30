@@ -37,17 +37,12 @@
             <li><a href="/turmas.html">TURMAS</a></li>
             <li><a href="/coordenacao.html">COORDENAÇÃO</a></li>
             <li><a href="/projeto.html">PROJETOS</a></li>
+            <li><a href="/documentacao.html">DOCUMENTAÇÃO</a></li>
           </ul>
         </nav>
         <nav class="main">
           <div class="toggle"></div>
           <ul>
-            <li class="search">
-              <a class="fa-search" href="#search">Pesquisar</a>
-              <form id="search" method="get" action="#">
-                <input type="text" name="query" placeholder="Search" />
-              </form>
-            </li>
 
             <li class="menu">
               <a class="fa-bars" href="#menu">Menu</a>
@@ -58,12 +53,6 @@
 
       <!-- Menu -->
       <section id="menu">
-        <!-- Search -->
-        <section>
-          <form class="search" method="get" action="#">
-            <input type="text" name="query" placeholder="Search" />
-          </form>
-        </section>
 
         <!-- Links -->
         <section>
@@ -86,6 +75,11 @@
             <li>
               <a href="/projeto.html">
                 <h3>PROJETOS</h3>
+              </a>
+            </li>
+            <li>
+              <a href="/documentacao.html">
+                <h3>DOCUMENTAÇÃO</h3>
               </a>
             </li>
           </ul>
@@ -179,7 +173,28 @@
 					</a>
 				  </div>
 				</div>
+        <div class="swiper-slide">
+				  <div class="project-img">
+					<a href="/documentacao.html">
+					  <picture>
+						<source
+						  media="(max-width:768px)"
+						  srcset="/images/carrossel/medio/DOCUMENTACAO.png"
+						/>
+						<source
+						  media="(min-width:1024px)"
+						  srcset="/images/carrossel/grande/DOCUMENTACAO.png"
+						/>
+						<img
+						  src="/images/carrossel/pequeno/DOCUMENTACAO.png"
+						  alt="Foto que leva para a página de turmas"
+						/>
+					  </picture>
+					</a>
+				  </div>
+				</div>
 			  </div>
+        
 			  <div class="swiper-button-next"></div>
 			  <div class="swiper-button-prev"></div>
 			  <div class="swiper-pagination"></div>
@@ -265,7 +280,7 @@
       </div>
     </div>
     <footer>
-      <section class="blurb">
+      <section id="footer">
         <h2>Sobre Nós</h2>
         <p>
           Nós do Grupo White Belly Leo disponibilizamos com muito carinho o
@@ -273,13 +288,6 @@
           contando toda a trajetória do nosso curso até agora.
         </p>
       </section>
-      <section id="footer">
-        <p class="copyright">
-          &copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.
-          Images: <a href="http://unsplash.com">Unsplash</a>.
-        </p>
-      </section>
-
     </footer>
     
     <!-- Scripts -->

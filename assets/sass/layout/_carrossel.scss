@@ -33,15 +33,30 @@
   }
 }
 .carrosseleventos{
-  .swiper{
-    img{
-      width: 100vw;
+  display:flex;
+  align-content: center;
+  justify-content: center;
+  .swiper {
+    img {
+      box-shadow: 0 2px 5px #0003;
+      width: 70vh;
+      transition: 0.1s ease-in;
+      max-height: 120vh;
     }
-    img:hover{
-      width:100vw;
+    .swiper-slide {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
-  p{
-    display: block;
+  .swiper-button-next,
+  .swiper-button-prev {
+    background-color: rgba(17, 37, 27, 0.158);
+    padding: 30px;
+    border-radius: 50%;
+  }
+  .swiper-pagination {
+    position: relative;
   }
 }

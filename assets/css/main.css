@@ -2183,6 +2183,10 @@ ul.posts article header > :last-child {
 }
 
 /* Post */
+.eventos .post header .title {
+  margin: 0;
+}
+
 .post {
   padding: 3em 3em 1em 3em;
   background: #ffffff;
@@ -2888,7 +2892,6 @@ body.is-menu-visible #menu {
   justify-content: center;
 }
 .carrossel .swiper img {
-  height: 100%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   width: 50%;
   transition: 0.1s ease-in;
@@ -2912,6 +2915,16 @@ body.is-menu-visible #menu {
 }
 .carrossel .swiper-pagination {
   position: relative;
+}
+
+.carrosseleventos .swiper img {
+  width: 100vw;
+}
+.carrosseleventos .swiper img:hover {
+  width: 100vw;
+}
+.carrosseleventos p {
+  display: block;
 }
 
 .turmas img {

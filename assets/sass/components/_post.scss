@@ -5,7 +5,15 @@
 ///
 
 /* Post */
-
+	.eventos{
+		.post{
+			header{
+				.title{
+					margin: 0;
+				}
+			}
+		}
+	}
 	.post {
 		@include padding(_size(section-spacing), _size(section-spacing));
 		background: _palette(bg);

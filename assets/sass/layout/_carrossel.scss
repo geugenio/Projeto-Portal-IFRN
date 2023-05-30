@@ -1,11 +1,10 @@
-.carrossel {
+.carrossel{
   height: 70vh;
   display:flex;
   align-content: center;
   justify-content: center;
   .swiper {
     img {
-      height: 100%;
       box-shadow: 0 2px 5px #0003;
       width: 50%;
       transition: 0.1s ease-in;
@@ -31,5 +30,18 @@
   }
   .swiper-pagination {
     position: relative;
+  }
+}
+.carrosseleventos{
+  .swiper{
+    img{
+      width: 100vw;
+    }
+    img:hover{
+      width:100vw;
+    }
+  }
+  p{
+    display: block;
   }
 }

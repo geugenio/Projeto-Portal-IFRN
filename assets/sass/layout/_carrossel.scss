@@ -32,17 +32,20 @@
     position: relative;
   }
 }
+
 .carrosseleventos{
+
   display:flex;
   align-content: center;
   justify-content: center;
   .swiper {
     img {
       box-shadow: 0 2px 5px #0003;
-      width: 70vh;
+      width: 60%;
       transition: 0.1s ease-in;
       max-height: 120vh;
     }
+
     .swiper-slide {
       text-align: center;
       display: flex;

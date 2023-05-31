@@ -2948,7 +2948,7 @@ body.single #wrapper {
 }
 
 /* Footer */
-#footer {
+.footerindex {
   margin-left: 70px;
 }
 #footer .icons {

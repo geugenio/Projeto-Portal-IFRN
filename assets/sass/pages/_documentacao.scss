@@ -1,0 +1,24 @@
+.documentacao{
+    .docpost {
+        text-align: left;
+        margin-bottom: 25px;
+      }
+      .sepat {
+        margin-top: 40px;
+        margin-bottom: 5px;
+      }
+      .paragra {
+        margin-bottom: 15px;
+      }
+      .post{
+        a{
+            background-color: rgb(73, 207, 46);
+            color: white;
+            padding: 0.5em;
+            border-radius: 20px;
+            &:hover{
+                color: rgb(158, 255, 182);
+            }
+          }
+      }
+}

@@ -7,8 +7,12 @@
         text-align: justify;
     }
     .lattes{
+        font-size: 1.2em;
         a {
             color:#459b1d;
+            &:hover{
+                color:#81e652;
+            }
         }
     }
     h3{

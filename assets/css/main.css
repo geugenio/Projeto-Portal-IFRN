@@ -2413,7 +2413,7 @@ ul.posts article header > :last-child {
   width: 12em;
   display: flex;
   margin: auto;
-  transform: translateY(-40px);
+  transform: translateY(-20px);
 }
 
 /* Section/Article */
